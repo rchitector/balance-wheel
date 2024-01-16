@@ -22,7 +22,7 @@ const Wheel = ({
     const centerRadius = maxRadius / 10;
 
     return (
-        <svg width={svgSize} height={svgSize}>
+        <svg className="border rounded-lg bg-white" width={svgSize} height={svgSize}>
             {labels.map((label, index)=>{
                 if (!values.length || !colors.length) {
                     return null;

@@ -10,8 +10,8 @@ const SectorValue = ({centerX, centerY, valueColor, radius, circleRadius, startA
     const x = centerX + radius * Math.cos(midAngle);
     const y = centerY + radius * Math.sin(midAngle);
     return <g pointerEvents="none">
-        <circle cx={x} cy={y} r={circleSize} fill={color} stroke={fillDefaultColor} strokeWidth={strokeWidth}/>
-        <text x={x} y={y} textAnchor="middle" dy="0.35em" fill={valueColor} fontSize={fontSize} fontWeight={600}>{value}</text>
+        <circle cx={x} cy={y} r={circleSize} fill={'white'} stroke={'black'} strokeWidth={strokeWidth}/>
+        <text x={x} y={y} textAnchor="middle" dy="0.35em" fill={'black'} fontSize={fontSize} fontWeight={600}>{value}</text>
     </g>
 };
 

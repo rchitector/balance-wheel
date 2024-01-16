@@ -10,13 +10,13 @@
   width: 24px;
   height: 24px;
   border-radius: 20px;
-  margin-right: 5px;
+  border: solid 1px #000;
   text-align: center;
-  color: #fff;
-  font-size: 14px;
-  line-height: 24px;
+  color: #000;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 23px;
   position: absolute;
-  margin-left: 8px;
 }
 
 html, body, #root{
